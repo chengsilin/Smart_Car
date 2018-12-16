@@ -1,0 +1,303 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Dec 16 13:27:43 2018
+# Process ID: 1864
+# Log file: c:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os/MIPSfpga_axi4.tmp/car_dir_v1_0_project/Car_Dir_v1_0_project.runs/synth_1/Car_Dir_v1_0.vds
+# Journal file: c:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os/MIPSfpga_axi4.tmp/car_dir_v1_0_project/Car_Dir_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Car_Dir_v1_0.tcl -notrace
+Command: synth_design -top Car_Dir_v1_0 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 264.984 ; gain = 92.508
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Car_Dir_v1_0' [c:/users/chengsilin/documents/system_practice/ip_repo/car_dir_1.0/hdl/Car_Dir_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Car_Dir_v1_0_S00_AXI' [c:/users/chengsilin/documents/system_practice/ip_repo/car_dir_1.0/hdl/Car_Dir_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/users/chengsilin/documents/system_practice/ip_repo/car_dir_1.0/hdl/Car_Dir_v1_0_S00_AXI.v:223]
+INFO: [Synth 8-226] default block is never used [c:/users/chengsilin/documents/system_practice/ip_repo/car_dir_1.0/hdl/Car_Dir_v1_0_S00_AXI.v:364]
+INFO: [Synth 8-256] done synthesizing module 'Car_Dir_v1_0_S00_AXI' (1#1) [c:/users/chengsilin/documents/system_practice/ip_repo/car_dir_1.0/hdl/Car_Dir_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-638] synthesizing module 'Freq_Div_mod' [c:/users/chengsilin/documents/system_practice/ip_repo/car_dir_1.0/hdl/Freq_Div_mod.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Freq_Div_mod' (2#1) [c:/users/chengsilin/documents/system_practice/ip_repo/car_dir_1.0/hdl/Freq_Div_mod.v:1]
+INFO: [Synth 8-638] synthesizing module 'Car_Driver_Int' [c:/users/chengsilin/documents/system_practice/ip_repo/car_dir_1.0/hdl/Car_Driver_Int.v:23]
+	Parameter ST0 bound to: 0 - type: integer 
+	Parameter ST1 bound to: 1 - type: integer 
+	Parameter ST2 bound to: 2 - type: integer 
+	Parameter ST3 bound to: 3 - type: integer 
+	Parameter ST4 bound to: 4 - type: integer 
+	Parameter ST5 bound to: 5 - type: integer 
+	Parameter ST6 bound to: 6 - type: integer 
+	Parameter ST7 bound to: 7 - type: integer 
+	Parameter ST8 bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Car_Driver_Int' (3#1) [c:/users/chengsilin/documents/system_practice/ip_repo/car_dir_1.0/hdl/Car_Driver_Int.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Car_Dir_v1_0' (4#1) [c:/users/chengsilin/documents/system_practice/ip_repo/car_dir_1.0/hdl/Car_Dir_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 299.184 ; gain = 126.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 299.184 ; gain = 126.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 299.184 ; gain = 126.707
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-5545] ROM "Clk_out" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 324.602 ; gain = 152.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      5 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	  10 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Car_Dir_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+Module Freq_Div_mod 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module Car_Driver_Int 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 444.367 ; gain = 271.891
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "fd/Clk_out" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+WARNING: [Synth 8-3331] design Car_Dir_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design Car_Dir_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design Car_Dir_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design Car_Dir_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design Car_Dir_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design Car_Dir_v1_0 has unconnected port s00_axi_arprot[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 445.688 ; gain = 273.211
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 445.688 ; gain = 273.211
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Car_Dir_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Car_Dir_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (\Car_Dir_v1_0_S00_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module Car_Dir_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\Car_Dir_v1_0_S00_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module Car_Dir_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\Car_Dir_v1_0_S00_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module Car_Dir_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\Car_Dir_v1_0_S00_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module Car_Dir_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\Car_Dir_v1_0_S00_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module Car_Dir_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\Car_Dir_v1_0_S00_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module Car_Dir_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\Car_Dir_v1_0_S00_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module Car_Dir_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\Car_Dir_v1_0_S00_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module Car_Dir_v1_0.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 475.949 ; gain = 303.473
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 475.949 ; gain = 303.473
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 475.949 ; gain = 303.473
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 475.949 ; gain = 303.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 475.949 ; gain = 303.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 475.949 ; gain = 303.473
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 475.949 ; gain = 303.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 475.949 ; gain = 303.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 475.949 ; gain = 303.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 475.949 ; gain = 303.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |     8|
+|3     |LUT1   |    34|
+|4     |LUT2   |     2|
+|5     |LUT3   |     4|
+|6     |LUT4   |    34|
+|7     |LUT5   |    14|
+|8     |LUT6   |    43|
+|9     |FDRE   |   242|
+|10    |IBUF   |    47|
+|11    |OBUF   |    45|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------------+---------------------+------+
+|      |Instance                    |Module               |Cells |
++------+----------------------------+---------------------+------+
+|1     |top                         |                     |   475|
+|2     |  Car_Dir_v1_0_S00_AXI_inst |Car_Dir_v1_0_S00_AXI |   238|
+|3     |  Car_Driver_inst           |Car_Driver_Int       |    58|
+|4     |  fd                        |Freq_Div_mod         |    85|
++------+----------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 475.949 ; gain = 303.473
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 475.949 ; gain = 264.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 475.949 ; gain = 303.473
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 55 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 39 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 523.375 ; gain = 312.574
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 523.375 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 16 13:28:00 2018...

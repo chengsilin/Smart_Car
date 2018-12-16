@@ -1,0 +1,180 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Dec 16 10:05:11 2018
+# Process ID: 7264
+# Log file: C:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os/vivado.log
+# Journal file: C:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os/MIPSfpga_axi4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os/xilinx.com_user_MIPS_MicroAptiv_UP_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chengsilin/Documents/System_Practice/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'MIPSfpga_system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+MIPSfpga_system_PWM_w_Int_0_1
+MIPSfpga_system_PWM_0_0
+
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 862.180 ; gain = 296.457
+open_bd_design {C:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd}
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding component instance block -- xilinx.com:ip:ahblite_axi_bridge:3.0 - ahblite_axi_bridge_0
+Adding component instance block -- xilinx.com:user:MIPS_MicroAptiv_UP:1.0 - MIPS_MicroAptiv_UP_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - axi_intc_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_4
+Adding component instance block -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_5
+Adding component instance block -- xilinx.com:user:PWM_w_Int:1.0 - PWM_w_Int_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:5.1 - clk_wiz_0
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-147] MIPSfpga_system_clk_wiz_0_0: clkphy_en: false , clkphy_freq: 600.000
+INFO: [xilinx.com:ip:clk_wiz:5.1-132] MIPSfpga_system_clk_wiz_0_0: mmcm_pll_calc_optimals: GetClosestSolution: errStr: 1
+INFO: [xilinx.com:ip:clk_wiz:5.1-137] MIPSfpga_system_clk_wiz_0_0: phyMode: NONE phyFreq: 50.000
+Adding component instance block -- xilinx.com:ip:mig_7series:2.3 - mig_7series_0
+Adding component instance block -- xilinx.com:user:PWM:1.0 - PWM_FL
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Successfully read diagram <MIPSfpga_system> from BD file <C:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd>
+open_bd_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1011.684 ; gain = 137.070
+report_ip_status -name ip_status 
+delete_bd_objs [get_bd_intf_nets axi_interconnect_0_M07_AXI] [get_bd_nets PWM_FL_Interrupt_out] [get_bd_nets PWM_FL_PWM_out] [get_bd_cells PWM_FL]
+save_bd_design
+Wrote  : <C:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd> 
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 16 10:18:30 2018...

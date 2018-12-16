@@ -1,0 +1,119 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.12  2014-12-16 bk=1.3272 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port PWM_F_L -pg 1 -y 1610 -defaultsOSRD
+preplace port UART_TXD_IN -pg 1 -y 960 -defaultsOSRD
+preplace port JB1 -pg 1 -y 190 -defaultsOSRD
+preplace port DIR_clk -pg 1 -y 40 -defaultsOSRD
+preplace port PWM_B_R -pg 1 -y 1970 -defaultsOSRD
+preplace port BLUE_UART_RXD_OUT -pg 1 -y 1500 -defaultsOSRD
+preplace port UART_RXD_OUT -pg 1 -y 1290 -defaultsOSRD
+preplace port CPU_RESETN -pg 1 -y 340 -defaultsOSRD
+preplace port JB2 -pg 1 -y 170 -defaultsOSRD
+preplace port JB3 -pg 1 -y 260 -defaultsOSRD
+preplace port JB4 -pg 1 -y 130 -defaultsOSRD
+preplace port PWM_F_R -pg 1 -y 1730 -defaultsOSRD
+preplace port CLK100MHZ -pg 1 -y 610 -defaultsOSRD
+preplace port BLUE_UART_TXD_IN -pg 1 -y 1460 -defaultsOSRD
+preplace port JB7 -pg 1 -y 210 -defaultsOSRD
+preplace port DDR2_SDRAM -pg 1 -y 520 -defaultsOSRD
+preplace port DIR_latch -pg 1 -y 100 -defaultsOSRD
+preplace port JB8 -pg 1 -y 260 -defaultsOSRD
+preplace port DIR_serial -pg 1 -y 60 -defaultsOSRD
+preplace port PWM_B_L -pg 1 -y 1850 -defaultsOSRD
+preplace port DIR_enable -pg 1 -y 80 -defaultsOSRD
+preplace portBus LED -pg 1 -y 350 -defaultsOSRD
+preplace inst PWM_F_L -pg 1 -lvl 6 -y 1600 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 6 -y 560 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 6 -y 890 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -y 50 -defaultsOSRD
+preplace inst Car_Driver_Int_0 -pg 1 -lvl 6 -y 70 -defaultsOSRD
+preplace inst PWM_B_R -pg 1 -lvl 6 -y 1960 -defaultsOSRD
+preplace inst MIPS_MicroAptiv_UP_0 -pg 1 -lvl 3 -y 210 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -y 720 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 2 -y 50 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 6 -y 340 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -y 790 -defaultsOSRD
+preplace inst xlconstant_3 -pg 1 -lvl 5 -y 1310 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -y 360 -defaultsOSRD
+preplace inst PWM_F_R -pg 1 -lvl 6 -y 1720 -defaultsOSRD
+preplace inst xlconstant_4 -pg 1 -lvl 4 -y 690 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 5 -y 1060 -defaultsOSRD
+preplace inst ahblite_axi_bridge_0 -pg 1 -lvl 4 -y 200 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 2 -y 260 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 7 -y 200 -defaultsOSRD
+preplace inst xlconstant_5 -pg 1 -lvl 5 -y 1440 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 4 -y 440 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 5 -y 430 -defaultsOSRD
+preplace inst PWM_B_L -pg 1 -lvl 6 -y 1840 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -y 610 -defaultsOSRD
+preplace inst axi_uart16550_0 -pg 1 -lvl 6 -y 1280 -defaultsOSRD
+preplace inst axi_uart16550_1 -pg 1 -lvl 6 -y 1470 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 6 -y 200 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 2 -y 130 -defaultsOSRD
+preplace netloc axi_interconnect_0_M09_AXI 1 5 1 1470
+preplace netloc Car_Driver_Int_0_DIR_latch 1 6 2 N 100 NJ
+preplace netloc xlconstant_5_dout 1 5 1 1460
+preplace netloc xlconstant_1_dout 1 1 1 320
+preplace netloc sin_1 1 0 7 NJ 960 NJ 960 NJ 960 NJ 960 NJ 1250 NJ 1200 1910
+preplace netloc EJ_TDI_1 1 0 3 NJ 170 NJ 180 560
+preplace netloc MIPS_MicroAptiv_UP_0_HCLK 1 3 3 830 100 1130 820 1560
+preplace netloc mig_7series_0_DDR2 1 6 2 N 520 NJ
+preplace netloc PWM_B_R_Interrupt_out 1 4 3 1130 890 NJ 1030 1960
+preplace netloc PWM_0_pwm_out 1 6 2 N 1610 NJ
+preplace netloc sin_2 1 0 7 NJ 1460 NJ 1460 NJ 1460 NJ 1460 NJ 1490 NJ 1390 1910
+preplace netloc xlconstant_2_dout 1 2 1 560
+preplace netloc MIPS_MicroAptiv_UP_0_AHB_Lite 1 3 1 820
+preplace netloc Car_Driver_Int_0_DIR_serial 1 6 2 N 60 NJ
+preplace netloc PWM_F_R_Interrupt_out 1 4 3 1100 1260 NJ 1360 1920
+preplace netloc PWM_0_Interrupt_out 1 4 3 1130 1230 NJ 1180 1930
+preplace netloc axi_uart16550_1_sout 1 6 2 1970 1500 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 6 1 N
+preplace netloc axi_interconnect_0_M10_AXI 1 5 1 1460
+preplace netloc axi_interconnect_0_M02_AXI 1 5 1 1610
+preplace netloc axi_uart16550_0_ip2intc_irpt 1 4 3 1150 900 NJ 1050 1920
+preplace netloc xlconcat_1_dout 1 5 1 1600
+preplace netloc axi_uart16550_0_sout 1 6 2 N 1290 NJ
+preplace netloc SI_ColdReset_1 1 0 2 NJ 260 N
+preplace netloc util_vector_logic_0_Res 1 2 1 570
+preplace netloc EJ_TCK_1 1 0 2 NJ 130 N
+preplace netloc xlconstant_1_dout1 1 4 1 1100
+preplace netloc EJ_TRST_N_1 1 0 3 NJ 210 NJ 210 N
+preplace netloc axi_interconnect_0_M07_AXI 1 5 1 1500
+preplace netloc Car_Driver_Int_0_DIR_enable 1 6 2 N 80 NJ
+preplace netloc mig_7series_0_ui_clk 1 4 3 1150 750 NJ 470 1960
+preplace netloc axi_interconnect_0_M04_AXI 1 5 1 1520
+preplace netloc axi_interconnect_0_M08_AXI 1 5 1 1490
+preplace netloc Car_Driver_Int_0_DIR_clk 1 6 2 N 40 NJ
+preplace netloc PWM_B_R_pwm_out 1 6 2 N 1970 NJ
+preplace netloc xlconcat_0_dout 1 2 1 580
+preplace netloc xlconstant_0_dout 1 3 1 840
+preplace netloc axi_gpio_0_gpio_io_o 1 6 2 NJ 350 N
+preplace netloc MIPS_MicroAptiv_UP_0_EJ_TDO 1 3 5 820 300 NJ 110 NJ 270 NJ 260 NJ
+preplace netloc ahblite_axi_bridge_0_M_AXI 1 4 1 1120
+preplace netloc PWM_B_L_Interrupt_out 1 4 3 1150 1240 NJ 1190 1950
+preplace netloc SI_ClkIn_1 1 0 2 NJ 610 N
+preplace netloc clk_wiz_0_clk_out1 1 2 1 560
+preplace netloc axi_interconnect_0_M05_AXI 1 5 1 1600
+preplace netloc axi_interconnect_0_M00_AXI 1 5 1 1490
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 3 4 830 780 NJ 780 NJ 780 1910
+preplace netloc clk_wiz_0_clk_out2 1 2 4 NJ 620 NJ 620 NJ 760 1540
+preplace netloc EJ_TMS_1 1 0 3 NJ 190 NJ 190 N
+preplace netloc axi_interconnect_0_M01_AXI 1 5 1 1470
+preplace netloc PWM_F_R_pwm_out 1 6 2 N 1730 NJ
+preplace netloc util_vector_logic_2_Res 1 4 1 1100
+preplace netloc ahblite_axi_bridge_0_s_ahb_hready_out 1 3 1 850
+preplace netloc util_vector_logic_1_Res 1 2 1 550
+preplace netloc axi_interconnect_0_M06_AXI 1 5 1 1550
+preplace netloc axi_intc_0_irq 1 1 6 330 910 NJ 910 NJ 810 NJ 810 NJ 810 1910
+preplace netloc SI_Reset_1 1 0 6 N 340 320 670 NJ 640 NJ 640 NJ 770 NJ
+preplace netloc util_ds_buf_0_BUFG_O 1 2 1 550
+preplace netloc MIPS_MicroAptiv_UP_0_HRESETn 1 3 3 840 310 1120 830 1570
+preplace netloc axi_interconnect_0_M03_AXI 1 5 1 1620
+preplace netloc PWM_B_L_pwm_out 1 6 2 N 1850 NJ
+preplace netloc axi_uart16550_1_ip2intc_irpt 1 4 3 1120 1220 NJ 1170 1940
+preplace netloc xlconstant_3_dout 1 5 1 N
+levelinfo -pg 1 150 250 440 710 970 1320 1780 2090 2210
+",
+}
+0

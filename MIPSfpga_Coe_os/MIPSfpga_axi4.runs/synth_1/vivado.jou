@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Dec 16 14:13:43 2018
+# Process ID: 6524
+# Log file: C:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os/MIPSfpga_axi4.runs/synth_1/MIPSfpga_system_wrapper.vds
+# Journal file: C:/Users/chengsilin/Documents/System_Practice/MIPSfpga_Coe_os/MIPSfpga_axi4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MIPSfpga_system_wrapper.tcl -notrace
